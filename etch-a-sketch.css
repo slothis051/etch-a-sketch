@@ -1,0 +1,9 @@
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBar {
+    display: flex;
+    margin: 5px 0px;
+}
