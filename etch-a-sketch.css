@@ -1,9 +1,22 @@
 #main {
+    width: 720px;
+    height: 720px;
     display: flex;
     flex-direction: column;
 }
 
-.inputBar {
+.mainRow {
+    display: flex;
+    margin: -1px 0px;
+    flex: 1 0 auto;
+}
+
+.box {
+    border-style: solid;
+    flex: 0 1 50px;
+}
+
+#inputHeader {
     display: flex;
     margin: 5px 0px;
 }
